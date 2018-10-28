@@ -2,30 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>quadratic equation</title>
+    <title>fibonacci numbers</title>
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <h1>quadratic equation</h1>
-        <label>Enter a
-            <input type="number" id="a" required>
+    <h1>fibonacci numbers</h1>
+        <label>Enter a number
+            <input type="number" id="num" required>
         </label>
-        <br>
-        <label>Enter b
-            <input type="number" id="b" required>
-        </label>
-        <br>
-        <label>Enter c
-            <input type="number" id="c" required>
-        </label>
-        <br>
-        <input type="submit" id="button" value="Submit">
-        <br>
+        <input type="submit" value="submit" id="button">
     
     <div id="answer">
-        <p>Here is your quadratic equation</p>
-        <p id="equation"></p>
-        <p id="solution"></p>
+        <p></p>
+        <p id="solutionByLoop"></p>
+        <p id="solutionByArray"></p>
+        <p id="solutionByRecursion"></p>
     </div>
     
     <script src="js/index.js"></script>
